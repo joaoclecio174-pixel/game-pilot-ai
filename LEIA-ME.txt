@@ -1,0 +1,19 @@
+GAME PILOT AI — Protótipo Android 0.2
+
+Este é um projeto inicial para gerar um APK de teste pelo GitHub Actions.
+Ainda NÃO joga sozinho, não toca na tela e não interpreta jogos. Esta versão prepara o pedido de autorização de captura de tela do Android e mantém uma notificação enquanto a sessão autorizada está ativa.
+
+COMO GERAR O APK PELO CELULAR:
+1. Entre no GitHub pelo Chrome e crie um repositório público chamado game-pilot-ai.
+2. Na página do repositório, use Add file > Upload files.
+3. Envie TODOS os arquivos e pastas deste ZIP (incluindo .github).
+4. Faça Commit changes na branch main.
+5. Abra a aba Actions e espere o workflow "Build Android APK" terminar com sucesso.
+6. Abra a execução concluída, baixe o artefato "game-pilot-ai-debug".
+7. Dentro do ZIP baixado estará app-debug.apk.
+
+IMPORTANTE:
+- Não compartilhe senha, códigos de login ou tokens do GitHub.
+- O APK debug é apenas para teste.
+- A captura exige autorização explícita do Android e uma notificação visível.
+- Próximas etapas: criar captura de frames real, análise visual e depois controle compatível com as regras do jogo.
